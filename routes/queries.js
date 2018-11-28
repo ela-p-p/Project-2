@@ -72,7 +72,7 @@ db.Fullurl.findAll({
             }
         )
     });
-    res.json(allesultObj)
+    res.json(allResultObj )
 });
 //Object.assign() is a nice little method to tidy up the user data back end, so only what we need is routed
 
